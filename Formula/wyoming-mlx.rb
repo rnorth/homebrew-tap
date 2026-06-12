@@ -5,9 +5,9 @@ class WyomingMlx < Formula
   sha256 "5a7b3a566ab278418a638746b65e98a29c417e6d62363e38a6403dc17d5e0b7d"
   license "Apache-2.0"
 
+  depends_on "uv" => :build
   depends_on arch: :arm64
   depends_on :macos
-  depends_on "uv" => :build
   depends_on "python@3.12"
 
   def install
