@@ -1,8 +1,8 @@
 class WyomingMlx < Formula
   desc "Apple-Silicon-native TTS and STT for Home Assistant and OpenAI clients"
   homepage "https://github.com/rnorth/wyoming-mlx"
-  url "https://github.com/rnorth/wyoming-mlx/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "9f59c8a46ac84f1696ed1ad2a43a1470d0f2af58132f50603553acdfc4749e0b"
+  url "https://github.com/rnorth/wyoming-mlx/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "fd36bbf52377191cf15ca4ae1a3ebd7938a8aec0506b08325c15c758e7cbfa4c"
   license "Apache-2.0"
 
   depends_on "uv" => :build
